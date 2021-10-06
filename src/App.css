@@ -1,0 +1,248 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.mainLogin{
+  background-image: url(images/thelady.jpg);
+  background-size: cover;
+
+}
+
+.mainRegister{
+
+  background-image: url(images/uber2.jpg);
+  background-size: cover;
+
+}
+
+.divOpacity{
+  background-color: blueviolet;
+  opacity: 0.7;
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  width: 100%;
+}
+
+.mainCard{
+  width: 40%;
+  min-height: 60vh;
+  color: gray;
+}
+
+.signUpTitle{
+  color: gray;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footerText{
+  text-align: center;
+}
+
+.navBar{
+  background-color: black;
+  height: 10vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+.links{
+  color: white;
+  margin-left: 20px;
+}
+
+.links:hover{
+  color: wheat;
+  text-decoration: none;
+}
+
+
+.logo{
+  color: white;
+  font-size: 30px;
+}
+
+.loggedUseer{
+  background-color: white;
+  border-radius: 15px;
+  color: black;
+  padding: 5px 10px;
+  border: none;
+  margin-left: 20px;
+}
+
+.menuBar{
+  display: flex;
+  align-items: center;
+
+
+}
+
+
+.hero{
+  height: 90vh;
+  width: 100%;
+  background-color: gold;
+  position: relative;
+}
+
+
+.requestContainer{
+
+  height: 70vh;
+  width: 25%;
+  background-color: white;
+  margin-left: 5%;
+  top: 10vh;
+  position: absolute;
+  border-radius: 5px;
+
+}
+
+.requestTopBar{
+  background-color: royalblue;
+  height: 160px;
+  display: flex;
+  align-items: center;
+}
+
+
+.requestIndicators{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.dots{
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: white;
+
+}
+
+.lineSep{
+
+  border-color: white;
+  width: 40px;
+  transform: rotate(-90deg);
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+
+.inputLocation{
+  width: 250px;
+  border: none;
+  margin-bottom: 20px;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 19px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(65, 81, 225);
+  
+}
+
+
+.inputLocation:focus {
+  outline: none;
+  background-color: rgb(128, 154, 240);
+}
+
+
+.inputLocation2:focus {
+  outline: none;
+  background-color: rgb(128, 154, 240);
+}
+.inputLocation2{
+  width: 250px;
+  border: none;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 19px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(65, 81, 225);
+  /* background: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3)); */
+}
+
+.inputLocation::placeholder{
+  color: white;
+
+}
+
+.inputLocation2::placeholder{
+  color: white;
+
+}
+
+
+.inputLocation:focus{
+  border: none;
+}
+
+
+
+.requestRide{
+  border: none;
+  color: white;
+  background-color: black;
+  width: 94%;
+  padding: 10px;
+  margin-left: 3%;
+  position: absolute;
+  bottom: 10px;
+  border-radius: 3px;
+}
+
+.vehicleImg{
+  height: 30px;
+}
+
+.leftReqCont{
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.leftReqCont p{
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: grey;
+}
+
+
+.leftInfoCont h6{
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+.leftInfoCont{
+  margin-left: 20px;
+}
+
+.leftPricing{
+ position: absolute;
+ right: 10px;
+}
+
+
+.leftReqCont:hover{
+  background-color: lavender;
+  cursor: pointer;
+}
